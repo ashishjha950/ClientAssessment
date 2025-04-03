@@ -6,7 +6,7 @@ import { IoSearch } from "react-icons/io5";
 const Navbar = () => {
   return (
     <nav className='px-3 py-2 bg-neutral-950  text-white'>
-        <div className="flex justify-between items-center">
+        <div className="flex justify-between items-center flex-wrap gap-2">
         <div className='text-xl flex items-center justify-center font-bold'>
             <div className="pr-3 ">
             <FaRegSquare/>
@@ -27,7 +27,7 @@ const Navbar = () => {
             </button>
         </div>
         </div>
-        <div className="flex items-center justify-start gap-2 mt-2">
+        <div className="flex items-center justify-start flex-wrap gap-2 mt-2">
         <div className="flex items-center bg-neutral-950  border border-gray-600 px-2 py-1 rounded">
           <input
             type="text"
